@@ -1,0 +1,60 @@
+/* PALETA DE COLORES
+#412234 - Dark Purple
+#6D466B - English Violet
+#44A1A0 - Cadet Blue
+#CAB6CD - Thistle
+#EEF5DB - Beige
+https://coolors.co/412234-6d466b-44a1a0-cab6cd-eef5db */
+
+
+/* --------------------- Global Styles --------------- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 1.5;
+}
+img {
+    width: 5%;
+}
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+h2, h3, h5 {
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.5em;
+}
+header {
+    text-align: center;
+}
+a {
+    padding: 10px;
+}
+
+/* -------------- Class styles ------------------ */
+
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.activity-info {
+    background: #412234;
+    color: white;
+}
+.resume{
+    /* #EEF5DB === rgb(238, 245, 219) */
+    background: rgba(238, 245, 219, 5%);
+}
+.html-tags {
+    background: #CAB6CD;
+}
+.html-tags strong {
+    font-size: 25px;
+}
+.social-media{
+    background: #6D466B;
+}
